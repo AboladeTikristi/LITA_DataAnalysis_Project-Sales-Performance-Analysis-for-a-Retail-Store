@@ -78,10 +78,10 @@ Here are some of the questions to answered in this Writeup:
    |6|Socks|121.6666667|
    
 4.  To identify Product with no sales in last quarter using sql
-   ``` Select Product,OrderDate,Sales from Sales_Data
-where DATENAME(MONTH,OrderDate) in ('September','October','November','December') 
-and YEAR(OrderDate)=2024
-and Sales=0 ```
+	   ``` Select Product,OrderDate,Sales from Sales_Data
+	where DATENAME(MONTH,OrderDate) in ('September','October','November','December') 
+	and YEAR(OrderDate)=2024
+	and Sales=0 ```
 
 
 ### Data Visualization
