@@ -22,7 +22,7 @@
 
 ### Project Overview
 ---
-This Data Analysis aims at extracting, exploring,  visualizing and Prediction on the Sales Data of a Retail Store. After the data analysis and visualization process, it is shown that the store is at a loss and if not stopped early the store would fold up inthe next four years. Preventive measures have also been suggested with assurance of positive results.
+This Data Analysis aims at extracting, exploring sales data to uncover key insights such as top-selling products, regional performance, and monthly sales trends. Then,visualizing and Prediction on the Sales Data of a Retail Store. After the data analysis and visualization process, it is shown that the store is at a loss and if not stopped early the store would fold up inthe next four years. Preventive measures have also been suggested with assurance of positive results.
 
 ### Data Sources
 ---
