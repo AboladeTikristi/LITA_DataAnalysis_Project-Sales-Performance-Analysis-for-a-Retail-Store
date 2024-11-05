@@ -57,8 +57,12 @@ Here are some of the questions to answered in this Writeup:
 6. Are there any Products that were not sold at all?
 
 
-#### Data Analysis
+### Data Analysis
 ---
-	To find out the total Sales by Product,region and Months, Pivot tables was used in Excel. 
+
+1. To find out the total Sales by Product,region and Months, Pivot tables was used in Excel.
+   
 ![ecxel pivot tables](https://github.com/user-attachments/assets/bc9ad13b-fc8d-4892-8630-88dcd109ded2)
 
+3. To find out the Average Sales per product the excel formular AverageIf was used:
+   
