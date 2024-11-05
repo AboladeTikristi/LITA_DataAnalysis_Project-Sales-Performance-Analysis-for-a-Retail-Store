@@ -36,19 +36,25 @@ In the initial phase of the Data Cleaning and Preparation
 
 ### Exploratoration of Sales Data Table
 ---
-1. How many Products were Sold?
-   Products	Sum of Sales
-Gloves	1,500,000.00
-Hat	1,587,500.00
-Jacket	1,050,000.00
-Shirt	2,450,000.00
-Shoes	3,087,500.00
-Socks	912,500.00
-Grand Total	10,587,500.00
-![image](https://github.com/user-attachments/assets/d61e3f59-9146-43da-a733-eea1b9dc7528)
+This Column in the Table includes the:
+- OrderId
+- Customer Id
+- Product
+- Region
+- OrderDate
+- Quantity
+- UnitPrice
+- Sales (This was included manually in Excel by, multiplying the quntity column by UnitPrice Column)
+  
+Here are some of the questions to answered in this Writeup:
 
-3. Total Number of Customers?
-2. Use of Pivot Table in Excel to summarize Total Sales by Product, Region and Months.
+1. How many Products were Sold and how many Customers do they have?
+   From the excel table, there are six Catgories of Product sold in the retail Shop with a total of 500 Customers
+2. What are the Total Sales by Product, Region and Months.
+3. What is the Average Sale per Product?
+4. Which Region, Product and Year has the highest Sales?
+5. Who are the Top Five customers and what Region are they from?
+6. Are there any Products that were not sold at all?
 
 
 
