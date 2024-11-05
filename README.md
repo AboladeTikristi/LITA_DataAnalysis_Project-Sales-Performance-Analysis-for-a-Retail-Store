@@ -65,4 +65,15 @@ Here are some of the questions to answered in this Writeup:
 ![excel pivot tables](https://github.com/user-attachments/assets/e172d77e-8ec3-48f3-8e92-d333c90d260b)
 
 2. To find out the Average Sales per product the excel formular AverageIf was used:
+   ``` =AVERAGEIF(SalesData!C2:C50001, "Shirt", SalesData!H2:H50001) ```
+
+   |S/N|	Product|	Average Sales|
+   |---|---------------|---------------------|
+|1|	|Shirt|	|326.6666667|
+3	Shoes	308.75
+4	Gloves	200
+2	Hat	158.75
+5	Jacket	140
+6	Socks	121.6666667
+
    
