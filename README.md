@@ -62,7 +62,7 @@ Here are some of the questions to answered in this Writeup:
 
 1. To find out the total Sales by Product,region and Months, Pivot tables was used in Excel.
 
-   ecxel pivot tables.JPG
+![excel pivot tables](https://github.com/user-attachments/assets/e172d77e-8ec3-48f3-8e92-d333c90d260b)
 
 2. To find out the Average Sales per product the excel formular AverageIf was used:
    
