@@ -4,11 +4,11 @@
 
 ### Project Overview
 ---
-This Data Analysis aims at extracting, exploring,  visualizing and Prediction on the Sales Data of a Retail Store.
+This Data Analysis aims at extracting, exploring,  visualizing and Prediction on the Sales Data of a Retail Store. After the data analysis and visualization process, it is shown that the store is at a loss and if not stopped early the store would fold up inthe next four years. Preventive measures have also been suggested with assurance of positive results.
 
 ### Data Sources
 ---
-The Primary Souce of this data was provided by the Incubator Hub ann be gotten [here](https://docs.google.com/spreadsheets/d/1urd2IUb7pRdGq8uHZ1njgDbtaCh4GCwF/edit?usp=drive_link&ouid=114961730859133220198&rtpof=true&sd=true)
+The Primary Source of this data was provided by the Incubator Hub ann be gotten [here](https://docs.google.com/spreadsheets/d/1urd2IUb7pRdGq8uHZ1njgDbtaCh4GCwF/edit?usp=drive_link&ouid=114961730859133220198&rtpof=true&sd=true)
 
 ### Tools Used
 ---
@@ -76,10 +76,17 @@ Here are some of the questions to answered in this Writeup:
    |4|Hat|158.75|
    |5|Jacket|140|
    |6|Socks|121.6666667|
+   
+4.  To identify Product with no sales in last quarter using sql
+   ``` Select Product,OrderDate,Sales from Sales_Data
+where DATENAME(MONTH,OrderDate) in ('September','October','November','December') 
+and YEAR(OrderDate)=2024
+and Sales=0 ```
 
 ### Data Visualization
+---
 
----There are some Visualizations in the excel file also but will be showing visualixation using the Ms PowerBi
+There are some Visualizations in the excel file also but will be showing visualixation using the Ms PowerBi
 
 1. The Second Sales Overview Dashboard showing:
    - the product category
@@ -88,6 +95,7 @@ Here are some of the questions to answered in this Writeup:
    - total sales per product,
    - the total sales oer month,
    - and total revenue by region.
+     
 ![Company overview](https://github.com/user-attachments/assets/b7607d32-8791-4386-a987-048c38d7ffed)
 
      
@@ -99,3 +107,21 @@ Here are some of the questions to answered in this Writeup:
 
    ![Sales overview2](https://github.com/user-attachments/assets/534e7081-eed5-4b5b-920b-69c409a9d62b)
 
+ ### Drawing Inference
+ ---
+
+ From the exploratory result and visualization the inferences drawn are:
+
+1. The Total Revenue earned and total orders in year 2024 is less than the total revenue earned in year 2023.
+2. The top three region with maximun sales are South, East and North with same number of customers.
+3. The top five Customers are all from the south region with purchase of shoes, gloves in both 2023 and 2024.
+4. In 2024, sales of the south and East reduced while sales in North and west increased.
+
+### Data Conclusion and Predictions
+---
+Conclusively, It can be said that the sales of the retail company reduced in 2024 and also in the region of highest cumulative total sales.
+Hence,
+1. The Store needs to increase their advertisement game especially in the North and west game nore and also produce more of the goods consistent in purchase per region.
+2. The Store can also appreciate customers yearly to retain them for the next year sales.
+3. The Store can also implement Next Year Preoreders.
+4.. The Store can also work on pairing the products that complement each other to increase sales.
