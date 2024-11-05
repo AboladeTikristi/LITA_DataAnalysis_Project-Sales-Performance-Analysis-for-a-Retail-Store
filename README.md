@@ -83,6 +83,7 @@ where DATENAME(MONTH,OrderDate) in ('September','October','November','December')
 and YEAR(OrderDate)=2024
 and Sales=0 ```
 
+
 ### Data Visualization
 ---
 
