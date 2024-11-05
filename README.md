@@ -2,6 +2,24 @@
 
 ## Outline Guide
 
+[Project Overview](#project-overview)
+
+[Data Sources](#data-sources)
+
+[Tools Used](#tools-used)
+
+[Data Cleaning and Preparation](#data-cleaning-and-preparation)
+
+[Exploratoration of Sales Data Table](#exploratoration-of-sales-data-table)
+
+[Data Analysis](#data-analysis)
+
+[Data Visualization](#data-visualization)
+
+[Drawinf Inference](#drawing-inference)
+
+[Data Conclusion and Predictions](#data-conclusion-and-predictions)
+
 ### Project Overview
 ---
 This Data Analysis aims at extracting, exploring,  visualizing and Prediction on the Sales Data of a Retail Store. After the data analysis and visualization process, it is shown that the store is at a loss and if not stopped early the store would fold up inthe next four years. Preventive measures have also been suggested with assurance of positive results.
@@ -66,7 +84,8 @@ Here are some of the questions to answered in this Writeup:
 ![excel pivot tables](https://github.com/user-attachments/assets/e172d77e-8ec3-48f3-8e92-d333c90d260b)
 
 2. To find out the Average Sales per product the excel formular AverageIf was used:
-   ``` =AVERAGEIF(SalesData!C2:C50001, "Shirt", SalesData!H2:H50001) ```
+
+   	``` =AVERAGEIF(SalesData!C2:C50001, "Shirt", SalesData!H2:H50001) ```
 
    |S/N|	Product|	Average Sales|
    |---|---------------|---------------------|
