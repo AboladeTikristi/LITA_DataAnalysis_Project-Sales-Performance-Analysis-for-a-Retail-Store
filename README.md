@@ -88,6 +88,7 @@ Here are some of the questions to answered in this Writeup:
    - total sales per product,
    - the total sales oer month,
    - and total revenue by region.
+![Company overview](https://github.com/user-attachments/assets/b7607d32-8791-4386-a987-048c38d7ffed)
 
      
 2. The Second Sales Overview Dashboard showing:
@@ -96,4 +97,5 @@ Here are some of the questions to answered in this Writeup:
    - the count of customers per year
    - and Quantity of Product sold by Region.
 
-   
+   ![Sales overview2](https://github.com/user-attachments/assets/534e7081-eed5-4b5b-920b-69c409a9d62b)
+
