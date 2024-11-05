@@ -16,7 +16,7 @@
 
 [Data Visualization](#data-visualization)
 
-[Drawinf Inference](#drawing-inference)
+[Drawing Inference](#drawing-inference)
 
 [Data Conclusion and Predictions](#data-conclusion-and-predictions)
 
