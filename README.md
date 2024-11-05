@@ -36,7 +36,7 @@ In the initial phase of the Data Cleaning and Preparation
 
 ### Exploratoration of Sales Data Table
 ---
-This Column in the Table includes the:
+The Columns in this Table includes the:
 - OrderId
 - Customer Id
 - Product
@@ -57,5 +57,8 @@ Here are some of the questions to answered in this Writeup:
 6. Are there any Products that were not sold at all?
 
 
-
+#### Data Analysis
+---
+	To find out the total Sales by Product,region and Months, Pivot tables was used in Excel. 
+![ecxel pivot tables](https://github.com/user-attachments/assets/bc9ad13b-fc8d-4892-8630-88dcd109ded2)
 
