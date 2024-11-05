@@ -22,7 +22,7 @@ The Primary Souce of this data was provided by the Incubator Hub ann be gotten [
   mainly SSMS (SQL Server Management System) [Download here](https://aka.ms/ssmsfullsetup)
   and SQL Server [Download here](https://www.microsoft.com/sql-server/sql-server-downloads)
   
-- PowerBi for Analysis Visualization [Download here](https://www.microsoft.com/en-us/download/details.aspx?id=58494)
+- Microsoft PowerBi for Analysis Visualization [Download here](https://www.microsoft.com/en-us/download/details.aspx?id=58494)
 - GitHub for Portfolio Building
 
 
@@ -50,11 +50,12 @@ Here are some of the questions to answered in this Writeup:
 
 1. How many Products were Sold and how many Customers do they have?
    From the excel table, there are six Catgories of Product sold in the retail Shop with a total of 500 Customers
-2. What are the Total Sales by Product, Region and Months.
-3. What is the Average Sale per Product?
-4. Which Region, Product and Year has the highest Sales?
-5. Who are the Top Five customers and what Region are they from?
-6. Are there any Products that were not sold at all?
+2. What is the total Revenue per Year?
+3. What are the Total Sales by Product, Region and Months.
+4. What is the Average Sale per Product?
+5. Which Region, Product and Year has the highest Sales?
+6. Who are the Top Five customers and what Region are they from?
+7. Are there any Products that were not sold at all?
 
 
 ### Data Analysis
@@ -69,11 +70,30 @@ Here are some of the questions to answered in this Writeup:
 
    |S/N|	Product|	Average Sales|
    |---|---------------|---------------------|
-|1|	|Shirt|	|326.6666667|
-3	Shoes	308.75
-4	Gloves	200
-2	Hat	158.75
-5	Jacket	140
-6	Socks	121.6666667
+   |1|Shirt|326.6666667|
+   |2|Shoes|308.75|
+   |3|Gloves|200|
+   |4|Hat|158.75|
+   |5|Jacket|140|
+   |6|Socks|121.6666667|
+
+### Data Visualization
+
+---There are some Visualizations in the excel file also but will be showing visualixation using the Ms PowerBi
+
+1. The Second Sales Overview Dashboard showing:
+   - the product category
+   - Regional Product category Sales,
+   - the total sales per year,
+   - total sales per product,
+   - the total sales oer month,
+   - and total revenue by region.
+
+     
+2. The Second Sales Overview Dashboard showing:
+   - the top customers
+   - Quantity of Product category sold per year,
+   - the count of customers per year
+   - and Quantity of Product sold by Region.
 
    
