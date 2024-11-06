@@ -18,7 +18,7 @@
 
 [Drawing Inference](#drawing-inference)
 
-[Data Conclusion and Predictions](#data-conclusion-and-predictions)
+[Data Conclusion and Proposals](#data-conclusion-and-proposals)
 
 ### Project Overview
 ---
@@ -137,7 +137,7 @@ There are some Visualizations in the excel file also but will be showing visuali
 3. The top five Customers are all from the south region with purchase of shoes, gloves in both 2023 and 2024.
 4. In 2024, sales of the south and East reduced while sales in North and west increased.
 
-### Data Conclusion and Predictions
+### Data Conclusion and Proposals
 ---
 Conclusively, It can be said that the sales of the retail company reduced in 2024 and also in the region of highest cumulative total sales.
 Hence,
